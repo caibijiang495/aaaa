@@ -19,4 +19,5 @@
     <!-- 声明需要暴露的服务接口  timeout="100000"配置之后 debug的时候等待不会超时 默认是1秒-->
     <dubbo:service interface="com.taotao.service.TestService" ref="testServiceImpl" timeout="100000"/>
     <dubbo:service interface="com.taotao.service.ItemService" ref="itemServiceImpl" timeout="100000"/>
+    <dubbo:service interface="com.taotao.service.ItemCatService" ref="itemCatServiceImpl" timeout="100000"/>
 </beans>
